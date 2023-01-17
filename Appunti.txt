@@ -1,0 +1,22 @@
+BOOTSTRAP II
+
+Questa libreria (in realtà un vero e proprio framework) offre diversi strumenti di lavoro come il positioning e la responsive phone native.
+
+Esistono altri elementi preconfezionati di componenti di uso comune, è importante ricordare che sono basi di partenza da personalizzare e non è accettabile a livello professionale l'uso di questi elementi senza un ulteriore valore aggiunto nostro per un rischio di eccessiva omologazione.
+
+BOTTONI
+
+oggi andremo ad imparare alcuni dei più importanti per prendere dimestichezza, partiamo dai BOTTONI.
+Usando la classe btn btn+colore (tipo primary) avremo un bottone con diverse implementazioni native come per esempio l'hover che cambia colore, font predefinito, possibilità di shadow, etc. usando btn-outline possiamo dare altri effetti sull'hover. btn.disable (rotto) invece non ha animazioni predefinite (magari per poterlo editare noi).
+Molto carini ci sono dei ALERT da associare al bottone. Usando la classe alert alert--check che poi con js possiamo far comparire e scomparire.
+Usando le impostazioni imparate ieri come position-relative e positin-absolute possiamo implementare al bottone pallini rossi ed altre modifiche estetiche.
+BREADCRUMB permette la creazione di menù di navigazioni espandibili che possono anche essere navigati a ritroso.
+
+NAVBAR
+
+Una delle feature preconfezionate è la navBar. Usando il tag navbar possiamo accedere a diversi strumenti.
+Con l'attributo navbar possiamo accedere a vari sottoclassi molto personalizzabili. utilizzando un html ul e li applichiamo varie classi da esplorare su bootstrap o gli appunti.
+
+CAROSELLO
+
+Molto usato in siti vetrina, possiamo avere varianti con sovra impressioni di testo, effetti di animazione(scorrimento, crossfade, auto scrollante), intervalli indipendenti delle slide, possibilità di offrire altri mezzi di navigazione al carosello (pallini-trattini). Con sass possiamo ulteriormente personalizzare il tutto.
